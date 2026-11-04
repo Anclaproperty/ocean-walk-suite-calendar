@@ -35,6 +35,7 @@
   tfoot td { font-weight: 700; border-top: 2px solid #0b2447; background: #f8fafc; }
   .no-bookings { color: #94a3b8; font-size: 13px; font-style: italic; }
   .missing { color: #b45309; font-style: italic; font-weight: 400; }
+  .blocked-row td { color: #64748b; font-style: italic; }
   @media print {
     body { background: white; padding: 0; }
     .month-block { box-shadow: none; border: 1px solid #e5e9f0; }
@@ -118,17 +119,14 @@
           <th>Ospite</th><th>Portale</th><th>Nr. prenotazione</th><th>Check-in</th><th>Check-out</th><th>Notti</th>
           <th>Prezzo</th><th>Pulizia</th><th>Commissione</th><th>Netto</th>
         </tr></thead>
-        <tbody><tr>
+        <tbody><tr class="blocked-row">
             <td>HEATHER PETRIE</td>
             <td>BOOKING</td>
             <td>6801664139</td>
             <td>29/12/2025</td>
             <td>04/01/2026</td>
             <td class="num-col">6</td>
-            <td class="num-col"><span class="missing">N/D</span></td>
-            <td class="num-col">90,00 &euro;</td>
-            <td class="num-col"><span class="missing">N/D</span></td>
-            <td class="num-col net"><span class="missing">N/D</span></td>
+            <td colspan="4">Continua dal 29/12/2025 (importo nel mese del check-in)</td>
         </tr><tr>
             <td>MICHAEL KELLY</td>
             <td>AIRBNB</td>
@@ -153,7 +151,7 @@
             <td class="num-col net">1,427.88 &euro;</td>
         </tr></tbody>
         <tfoot><tr>
-          <td colspan="6">Totale mese (parziale, dati mancanti su alcune righe)</td>
+          <td colspan="6">Totale mese</td>
           <td class="num-col">4,032.95 &euro;</td><td></td>
           <td class="num-col">638.76 &euro;</td>
           <td class="num-col">3,394.19 &euro;</td>
@@ -172,17 +170,14 @@
           <th>Ospite</th><th>Portale</th><th>Nr. prenotazione</th><th>Check-in</th><th>Check-out</th><th>Notti</th>
           <th>Prezzo</th><th>Pulizia</th><th>Commissione</th><th>Netto</th>
         </tr></thead>
-        <tbody><tr>
+        <tbody><tr class="blocked-row">
             <td>LOUISE HANVEY</td>
             <td>BOOKING</td>
             <td>5769429887</td>
             <td>31/01/2026</td>
             <td>07/02/2026</td>
             <td class="num-col">7</td>
-            <td class="num-col">1,705.95 &euro;</td>
-            <td class="num-col">90,00 &euro;</td>
-            <td class="num-col">278.07 &euro;</td>
-            <td class="num-col net">1,427.88 &euro;</td>
+            <td colspan="4">Continua dal 31/01/2026 (importo nel mese del check-in)</td>
         </tr><tr>
             <td>GEOFF CROSSLAND</td>
             <td>BOOKING</td>
@@ -219,9 +214,9 @@
         </tr></tbody>
         <tfoot><tr>
           <td colspan="6">Totale mese</td>
-          <td class="num-col">6,004.25 &euro;</td><td></td>
-          <td class="num-col">969.64 &euro;</td>
-          <td class="num-col">5,034.61 &euro;</td>
+          <td class="num-col">4,298.30 &euro;</td><td></td>
+          <td class="num-col">691.57 &euro;</td>
+          <td class="num-col">3,606.73 &euro;</td>
         </tr></tfoot>
       </table>
     </section>
@@ -237,17 +232,14 @@
           <th>Ospite</th><th>Portale</th><th>Nr. prenotazione</th><th>Check-in</th><th>Check-out</th><th>Notti</th>
           <th>Prezzo</th><th>Pulizia</th><th>Commissione</th><th>Netto</th>
         </tr></thead>
-        <tbody><tr>
+        <tbody><tr class="blocked-row">
             <td>GORDON STEWART</td>
             <td>BOOKING</td>
             <td>6764511335</td>
             <td>25/02/2026</td>
             <td>05/03/2026</td>
             <td class="num-col">8</td>
-            <td class="num-col">1,582.20 &euro;</td>
-            <td class="num-col">90,00 &euro;</td>
-            <td class="num-col">257.90 &euro;</td>
-            <td class="num-col net">1,324.30 &euro;</td>
+            <td colspan="4">Continua dal 25/02/2026 (importo nel mese del check-in)</td>
         </tr><tr>
             <td>SAMANTHA BALMER</td>
             <td>BOOKING</td>
@@ -306,9 +298,9 @@
         </tr></tbody>
         <tfoot><tr>
           <td colspan="6">Totale mese</td>
-          <td class="num-col">7,001.06 &euro;</td><td></td>
-          <td class="num-col">1,141.18 &euro;</td>
-          <td class="num-col">5,859.88 &euro;</td>
+          <td class="num-col">5,418.86 &euro;</td><td></td>
+          <td class="num-col">883.28 &euro;</td>
+          <td class="num-col">4,535.58 &euro;</td>
         </tr></tfoot>
       </table>
     </section>
@@ -324,17 +316,14 @@
           <th>Ospite</th><th>Portale</th><th>Nr. prenotazione</th><th>Check-in</th><th>Check-out</th><th>Notti</th>
           <th>Prezzo</th><th>Pulizia</th><th>Commissione</th><th>Netto</th>
         </tr></thead>
-        <tbody><tr>
+        <tbody><tr class="blocked-row">
             <td>RACHEL GALLEN</td>
             <td>BOOKING</td>
             <td>5870434145</td>
             <td>30/03/2026</td>
             <td>06/04/2026</td>
             <td class="num-col">7</td>
-            <td class="num-col">1,308.60 &euro;</td>
-            <td class="num-col">90,00 &euro;</td>
-            <td class="num-col">213.30 &euro;</td>
-            <td class="num-col net">1,095.30 &euro;</td>
+            <td colspan="4">Continua dal 30/03/2026 (importo nel mese del check-in)</td>
         </tr><tr>
             <td>ARNI ARNASON</td>
             <td>BOOKING</td>
@@ -371,9 +360,9 @@
         </tr></tbody>
         <tfoot><tr>
           <td colspan="6">Totale mese</td>
-          <td class="num-col">4,365.44 &euro;</td><td></td>
-          <td class="num-col">711.57 &euro;</td>
-          <td class="num-col">3,653.87 &euro;</td>
+          <td class="num-col">3,056.84 &euro;</td><td></td>
+          <td class="num-col">498.27 &euro;</td>
+          <td class="num-col">2,558.57 &euro;</td>
         </tr></tfoot>
       </table>
     </section>
@@ -486,17 +475,14 @@
           <th>Ospite</th><th>Portale</th><th>Nr. prenotazione</th><th>Check-in</th><th>Check-out</th><th>Notti</th>
           <th>Prezzo</th><th>Pulizia</th><th>Commissione</th><th>Netto</th>
         </tr></thead>
-        <tbody><tr>
+        <tbody><tr class="blocked-row">
             <td>TANJA LAESCH</td>
             <td>BOOKING</td>
             <td>5236951518</td>
             <td>29/06/2026</td>
             <td>04/07/2026</td>
             <td class="num-col">5</td>
-            <td class="num-col">736.08 &euro;</td>
-            <td class="num-col">90,00 &euro;</td>
-            <td class="num-col">134.70 &euro;</td>
-            <td class="num-col net">601.38 &euro;</td>
+            <td colspan="4">Continua dal 29/06/2026 (importo nel mese del check-in)</td>
         </tr><tr>
             <td>ALBERTO REBOLLO ARROSPIDE</td>
             <td>AIRBNB</td>
@@ -577,9 +563,9 @@
         </tr></tbody>
         <tfoot><tr>
           <td colspan="6">Totale mese</td>
-          <td class="num-col">5,599.29 &euro;</td><td></td>
-          <td class="num-col">974.56 &euro;</td>
-          <td class="num-col">4,624.73 &euro;</td>
+          <td class="num-col">4,863.21 &euro;</td><td></td>
+          <td class="num-col">839.86 &euro;</td>
+          <td class="num-col">4,023.35 &euro;</td>
         </tr></tfoot>
       </table>
     </section>
@@ -595,17 +581,14 @@
           <th>Ospite</th><th>Portale</th><th>Nr. prenotazione</th><th>Check-in</th><th>Check-out</th><th>Notti</th>
           <th>Prezzo</th><th>Pulizia</th><th>Commissione</th><th>Netto</th>
         </tr></thead>
-        <tbody><tr>
+        <tbody><tr class="blocked-row">
             <td>ANNMARIE WEATHERALL</td>
             <td>BOOKING</td>
             <td>6182294025</td>
             <td>31/07/2026</td>
             <td>06/08/2026</td>
             <td class="num-col">6</td>
-            <td class="num-col">1,091.21 &euro;</td>
-            <td class="num-col">90,00 &euro;</td>
-            <td class="num-col">199.69 &euro;</td>
-            <td class="num-col net">891.52 &euro;</td>
+            <td colspan="4">Continua dal 31/07/2026 (importo nel mese del check-in)</td>
         </tr><tr>
             <td>JOSEPH BRENNAN</td>
             <td>BOOKING</td>
@@ -653,9 +636,9 @@
         </tr></tbody>
         <tfoot><tr>
           <td colspan="6">Totale mese</td>
-          <td class="num-col">4,550.76 &euro;</td><td></td>
-          <td class="num-col">832.79 &euro;</td>
-          <td class="num-col">3,717.97 &euro;</td>
+          <td class="num-col">3,459.55 &euro;</td><td></td>
+          <td class="num-col">633.10 &euro;</td>
+          <td class="num-col">2,826.45 &euro;</td>
         </tr></tfoot>
       </table>
     </section>
@@ -877,17 +860,14 @@
           <th>Ospite</th><th>Portale</th><th>Nr. prenotazione</th><th>Check-in</th><th>Check-out</th><th>Notti</th>
           <th>Prezzo</th><th>Pulizia</th><th>Commissione</th><th>Netto</th>
         </tr></thead>
-        <tbody><tr>
+        <tbody><tr class="blocked-row">
             <td>MINIE REUVEKAMP</td>
             <td>AIRBNB</td>
             <td>HM55Y8EKHF</td>
             <td>22/11/2026</td>
             <td>02/12/2026</td>
             <td class="num-col">10</td>
-            <td class="num-col">1,629.00 &euro;</td>
-            <td class="num-col">90,00 &euro;</td>
-            <td class="num-col">270.18 &euro;</td>
-            <td class="num-col net">1,358.82 &euro;</td>
+            <td colspan="4">Continua dal 22/11/2026 (importo nel mese del check-in)</td>
         </tr><tr>
             <td>MARIAN BERKHOUT</td>
             <td>BOOKING</td>
@@ -924,9 +904,9 @@
         </tr></tbody>
         <tfoot><tr>
           <td colspan="6">Totale mese</td>
-          <td class="num-col">6,911.47 &euro;</td><td></td>
-          <td class="num-col">1,236.87 &euro;</td>
-          <td class="num-col">5,674.60 &euro;</td>
+          <td class="num-col">5,282.47 &euro;</td><td></td>
+          <td class="num-col">966.69 &euro;</td>
+          <td class="num-col">4,315.78 &euro;</td>
         </tr></tfoot>
       </table>
     </section>
@@ -942,17 +922,14 @@
           <th>Ospite</th><th>Portale</th><th>Nr. prenotazione</th><th>Check-in</th><th>Check-out</th><th>Notti</th>
           <th>Prezzo</th><th>Pulizia</th><th>Commissione</th><th>Netto</th>
         </tr></thead>
-        <tbody><tr>
+        <tbody><tr class="blocked-row">
             <td>HOPE NICHOLLS</td>
             <td>BOOKING</td>
             <td>5720871039</td>
             <td>26/12/2026</td>
             <td>02/01/2027</td>
             <td class="num-col">7</td>
-            <td class="num-col">1,988.10 &euro;</td>
-            <td class="num-col">90,00 &euro;</td>
-            <td class="num-col">363.82 &euro;</td>
-            <td class="num-col net">1,624.28 &euro;</td>
+            <td colspan="4">Continua dal 26/12/2026 (importo nel mese del check-in)</td>
         </tr><tr>
             <td>KATARZYNA OBERPEILSTEINER</td>
             <td>BOOKING</td>
@@ -1000,9 +977,9 @@
         </tr></tbody>
         <tfoot><tr>
           <td colspan="6">Totale mese</td>
-          <td class="num-col">8,576.46 &euro;</td><td></td>
-          <td class="num-col">1,569.49 &euro;</td>
-          <td class="num-col">7,006.97 &euro;</td>
+          <td class="num-col">6,588.36 &euro;</td><td></td>
+          <td class="num-col">1,205.67 &euro;</td>
+          <td class="num-col">5,382.69 &euro;</td>
         </tr></tfoot>
       </table>
     </section>
@@ -1018,17 +995,14 @@
           <th>Ospite</th><th>Portale</th><th>Nr. prenotazione</th><th>Check-in</th><th>Check-out</th><th>Notti</th>
           <th>Prezzo</th><th>Pulizia</th><th>Commissione</th><th>Netto</th>
         </tr></thead>
-        <tbody><tr>
+        <tbody><tr class="blocked-row">
             <td>ANN MC CARTHY</td>
             <td>BOOKING</td>
             <td>5926157417</td>
             <td>31/01/2027</td>
             <td>07/02/2027</td>
             <td class="num-col">7</td>
-            <td class="num-col">1,583.10 &euro;</td>
-            <td class="num-col">90,00 &euro;</td>
-            <td class="num-col">289.71 &euro;</td>
-            <td class="num-col net">1,293.39 &euro;</td>
+            <td colspan="4">Continua dal 31/01/2027 (importo nel mese del check-in)</td>
         </tr><tr>
             <td>HILDA VAN GUCHT</td>
             <td>BOOKING</td>
@@ -1054,9 +1028,9 @@
         </tr></tbody>
         <tfoot><tr>
           <td colspan="6">Totale mese</td>
-          <td class="num-col">5,341.80 &euro;</td><td></td>
-          <td class="num-col">947.57 &euro;</td>
-          <td class="num-col">4,394.23 &euro;</td>
+          <td class="num-col">3,758.70 &euro;</td><td></td>
+          <td class="num-col">657.86 &euro;</td>
+          <td class="num-col">3,100.84 &euro;</td>
         </tr></tfoot>
       </table>
     </section>
